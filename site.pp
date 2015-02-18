@@ -13,13 +13,13 @@ node default {
     include postgresql::server
     include postgresql::client
     include postgresql::lib::devel
-    
+       
     # include the Expat components
     include expat
     
     # build the udns service
     include udns
-    
+     
     # Install the gnusasl components
     include gnusasl
     
