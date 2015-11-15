@@ -22,10 +22,7 @@ node default {
      
     # Install the gnusasl components
     include gnusasl
-    
-    # Include the augest components
-    include augeas
-    
+       
     # install the jabber components
     include jabber
 
