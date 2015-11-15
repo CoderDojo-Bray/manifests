@@ -23,6 +23,9 @@ node default {
     # Install the gnusasl components
     include gnusasl
     
+    # Install the extra python components we'll use
+    include pyextras
+    
     # install the jabber components
     include jabber
 
